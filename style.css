@@ -50,17 +50,15 @@ img {
     border: 2px solid #ccc;
 }
 
-/* Updated Media Card to contain floated elements cleanly inside 1 border */
 .media-card {
     background-color: #f9f9f9;
     border: 1px solid #e0e0e0;
     border-radius: 6px;
     padding: 15px;
     margin-bottom: 15px;
-    overflow: hidden; /* Contains floats inside the single border box */
+    overflow: hidden;
 }
 
-/* Float text container to the left */
 .media-card > div {
     float: left;
 }
@@ -76,7 +74,6 @@ img {
     font-size: 0.95rem;
 }
 
-/* Float audio and video controls to the right on 1 line */
 audio, video {
     float: right;
     width: 250px;
