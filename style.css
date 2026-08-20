@@ -27,7 +27,7 @@ main {
 }
 
 section {
-    background-color: #fac88c;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
